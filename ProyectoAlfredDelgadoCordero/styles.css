@@ -1,0 +1,55 @@
+body{
+    background: url(../ProyectoAlfredDelgadoCordero/Imagenes/fondo1.jpg);
+    color: greenyellow;
+}
+h1,h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-size: 25px;
+}
+#boton{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: darkred;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    border: 5px solid greenyellow;
+    transition: all 2s;
+}
+#boton:hover{
+    border-radius: 15px;
+    background: hotpink;
+    border: 5px solid aqua;
+}
+li{
+    font-size: 25px;
+}
+h3,h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 30px;
+
+}
+#banner{
+    width: 95.6%;
+    height: 100px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 2px gray;
+    background: url(../ProyectoAlfredDelgadoCordero/Imagenes/bakbaner.png);
+    background-position: -300px -300px;
+    margin: 10px auto;
+}
+#banner h1,h2{
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    line-height: 20px;
+}
